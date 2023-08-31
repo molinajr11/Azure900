@@ -90,7 +90,7 @@ the ability of a system to quickly and easily scale up or down the amount of res
 
 # Reliability (Safety)
 the ability of the system to function with a high degree of accuracy
-How is realiability achived?
+How is reliability achived?
 - auto-Scaling
 - Multi-region deployments
 - Data backup and replication
@@ -100,21 +100,21 @@ How is realiability achived?
 - Load balancing
 - Different instance types sizes pricing tiers
 - Cost management tools
-- Api
+- API
 - Pricing calculators
 
 # Security Benefit
 - Microsoft Security Response Center (Msrc)
 - Always-on DDos
-- Azure Policy y Blueprint
-- Roled based access control (Rbac)
+- Azure Policy and Blueprint
+- Roled-based access control (Rbac)
 - Azure active Directory
 - Encryption by default
 - Dozens of security services like firewall
 
 # Governance
-- azure policy  and blueprint
-- managemt groups 
+- Azure policy  and blueprint
+- management groups 
 - custom roles
 - Soft delete
 # Managability
@@ -124,5 +124,30 @@ How is realiability achived?
 - Scaling
 - Monitoring and alerts
 - self-healing
-Is it Achived
-Azure Portal,CLI,PowerShell,Cloud Shell, Rest Apis, 
+Is it Archived
+Azure Portal, CLI, PowerShell, Cloud Shell, Rest Apis,
+
+# Cloud Service Types
+
+# Infrastructure as a Service (Iass)
+- These are the essential services of technology
+- Computing: Virtual Machines
+- Storage: hard disk, blobs, files, queues, and tables.
+- Networking: doesn't have a cost
+- Cloud replacements of real-world things.
+
+# Platform as a Service(Pass)
+Middleware, development tools, database servers, and more.
+**Pass computing**: Azure app services, Simply upload your code and configuration to Azure, and it runs your code without needing to worry about the VM underneath
+- includes Scaling features, Ci/CD, containers, staging and development environments, etc.
+**Pass Storage**: Managed Storage is an example, Azure SQL Database. Freed from worrying about the server VM itself or the hard disk itself.
+**Pass Networking**
+- Azure Front Door is an example of this
+- Or Load Balancer
+- Or Firewall
+- These are software applications that perform networking tasks.
+
+# Software as a Service (Saas) Aps
+- Cloud apps.
+- Tools such as Office 365, OneDrive, and Skype.
+- The app is ready to be used and you simply need to set it up and use it.
